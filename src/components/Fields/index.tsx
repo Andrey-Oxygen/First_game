@@ -14,7 +14,7 @@ export const Fields: React.FC<FieldsProps> = ({fields, onClick, winCombo}) => {
           <div
             onClick={() => onClick(index)}
             className={
-              "field" + (winCombo && winCombo.includes(index) ? "active" : "")
+              "field" + (winCombo && winCombo.includes(index) ? " active" : "")
             }
             key={index}
           >
